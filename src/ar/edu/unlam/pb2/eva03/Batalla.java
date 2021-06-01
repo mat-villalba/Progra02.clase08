@@ -10,6 +10,14 @@ public class Batalla {
 	private TipoDeBatalla tipo;
 	private String nombre;
 	private List<Vehiculo> vehiculosEnLaBatalla;
+	
+	public Batalla(String nombre, TipoDeBatalla tipo, double longitud, double latitud) {
+		this.latitud = latitud;
+		this.longitud = longitud;
+		this.tipo = tipo;
+		this.nombre = nombre;
+	}
+	
 	public Double getLatitud() {
 		return latitud;
 	}
