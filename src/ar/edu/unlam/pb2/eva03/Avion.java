@@ -18,6 +18,9 @@ public class Avion extends Vehiculo implements Volador{
 		return this.altura+10.0;
 	}
 	
+	public Double calculadorDeTravis() {
+	}
+	
 	
 
 }
