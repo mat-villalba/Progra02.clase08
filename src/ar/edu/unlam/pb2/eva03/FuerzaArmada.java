@@ -26,7 +26,6 @@ public class FuerzaArmada {
 		return this.convoy.size();
 	}
 
-
 	public void crearBatalla(String nombre, TipoDeBatalla tipo, double latitud, double longitud) {
 		Batalla nuevaBatalla = new Batalla(nombre, tipo, longitud, latitud);
 		batallas.add(nuevaBatalla);
